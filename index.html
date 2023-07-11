@@ -7,6 +7,43 @@
     <title>Calculator</title>
 </head>
 <body>
-    Hello
+    <header>
+        <h1>Calculator</h1>
+    </header>
+    <main class="main">
+        <div class="display"></div>
+        <div class="calculator_container">
+            <div class="numbers" style="grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(4, 1fr);">
+                <div id="grid_number">1</div>
+                <div id="grid_number">2</div>
+                <div id="grid_number">3</div>
+                <div id="grid_number">4</div>
+                <div id="grid_number">5</div>
+                <div id="grid_number">6</div>
+                <div id="grid_number">7</div>
+                <div id="grid_number">8</div>
+                <div id="grid_number">9</div>
+                <div id="grid_number">0</div>
+            </div>
+            <div class="operations" style="grid-template-columns: repeat(1, 1fr); grid-template-rows: repeat(4, 1fr);">
+                <div id="grid_operation" class="add">+</div>
+                <div id="grid_operation" class="subtract">-</div>
+                <div id="grid_operation" class="multiply">*</div>
+                <div id="grid_operation" class="divide">/</div>
+            </div>
+        </div>
+        <div class="calculation">
+            <div id="calc_btn" class="calculate">Calculate</div>
+            <div id="calc_btn" class="clear">Clear</div>
+            <div id="calc_btn" class="delete">Delete</div>
+        </div>
+    </main>
+    <footer>
+       <h3>Odin Project 2023 © Christopher Jones</h3>
+    </footer>
+
+
+    <script src="index.js"></script>
 </body>
+
 </html>
